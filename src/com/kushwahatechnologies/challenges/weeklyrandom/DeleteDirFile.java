@@ -21,7 +21,7 @@ import java.io.File;
 
 public class DeleteDirFile {
     public static void main(String[] args) {
-        File root = new File("src/com/kushwahatechnologies/challenges/weeklyrandom/Files");
+        File root = new File("");
         try {
             deleteDirectoriesFiles(root);
             System.out.println("Files/folders is deleted.");
