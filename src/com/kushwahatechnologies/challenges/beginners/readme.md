@@ -10,6 +10,6 @@
 
 | S. No.    | Challenge Name      |   Challenge Date    | Solution post Date                 |   Status   |
 | ---:      |        :---:        |        :---:        |        :---:                       |    :---:   |
-|   #001    |  VariablesInJava    |   August 14, 2019   |  August 17, 2019 __new__                    | _running_  |
+|   #001    |  VariablesInJava    |   August 14, 2019   |  August 17, 2019 __(new)__                    | _running_  |
 |           |                     |                     |                                    |            |
 |           |                     |                     |                                    |            |
