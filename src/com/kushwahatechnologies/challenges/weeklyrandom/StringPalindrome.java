@@ -26,7 +26,9 @@ public class StringPalindrome {
 
     private static Scanner scanner = new Scanner(System.in);
     private static String original;
-    private static String reverse;
+    // If reverse is not initialize then it will hold's default value that is "null" so firstly initialize reverse variable...
+    private static String reverse = "";
+    // private static String reverse;
 
     public static void main(String[] args) {
         System.out.println("Enter a String: ");
@@ -41,6 +43,29 @@ public class StringPalindrome {
         } else {
             System.out.println("Not a palindrome");
         }
+    }
+
+    // MORE ON STRING PALINDROME
+
+    // Finding the String Palindrome with Java library
+    private static boolean isStringPalindrome(String string) {
+        if (string == null)
+            return false;
+        StringBuilder stringBuilder = new StringBuilder(string);
+        stringBuilder.reverse();
+        return stringBuilder.toString().equals(string);
+    }
+
+    // Another approach to get given string is Palindrome or not.
+    private static boolean _isStringPalindrome(String string) {
+        if (string == null)
+            return false;
+        int length = string.length();
+        for (int i = 0; i < length/2; i++ ) {
+            if (string.charAt(i) != string.charAt(length - i - 1));
+                return false;
+        }
+        return true;
     }
 }
 

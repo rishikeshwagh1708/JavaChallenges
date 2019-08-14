@@ -16,12 +16,14 @@ import java.io.File;
  *
  *  Comment your response.
  *  Solution will be shown on Wednesday.
+ *  https://www.facebook.com/Sandeepkush327/posts/1228618314009839
  *
  * */
 
 public class DeleteDirFile {
     public static void main(String[] args) {
-        File root = new File("");
+        // File constructor takes the file path
+        File root = new File("src/com/kushwahatechnologies.challenges/weeklyrandom/Files");
         try {
             deleteDirectoriesFiles(root);
             System.out.println("Files/folders is deleted.");
@@ -31,6 +33,22 @@ public class DeleteDirFile {
     }
 
     private static void deleteDirectoriesFiles(File root) {
-        // code here...
+        String[] files = root.list();
+
+        if (root.isFile()) {
+            root.delete();
+        } else {
+            for (String fileName : files) {
+                File fileItem = new File(root + "/" + fileName);
+                if (fileItem.exists()) {
+                    if (fileItem.isDirectory() || fileItem.isFile()) {
+                        if (!fileItem.delete()) {
+                            deleteDirectoriesFiles(fileItem);
+                        }
+                    }
+                }
+            }
+            root.delete();
+        }
     }
 }
