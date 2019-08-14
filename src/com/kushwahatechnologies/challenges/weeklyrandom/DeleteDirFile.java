@@ -33,22 +33,6 @@ public class DeleteDirFile {
     }
 
     private static void deleteDirectoriesFiles(File root) {
-        String[] files = root.list();
-
-        if (root.isFile()) {
-            root.delete();
-        } else {
-            for (String fileName : files) {
-                File fileItem = new File(root + "/" + fileName);
-                if (fileItem.exists()) {
-                    if (fileItem.isDirectory() || fileItem.isFile()) {
-                        if (!fileItem.delete()) {
-                            deleteDirectoriesFiles(fileItem);
-                        }
-                    }
-                }
-            }
-            root.delete();
-        }
+        // code here...
     }
 }
