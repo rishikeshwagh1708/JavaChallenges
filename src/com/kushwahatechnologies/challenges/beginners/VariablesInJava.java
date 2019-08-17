@@ -28,5 +28,23 @@ public class VariablesInJava {
         String myString = "This is local";
 
         // Use variables here...
+
+        System.out.println("local variables: ");
+        System.out.println(myBoolean);
+        System.out.println(level);
+        System.out.println(myInt);
+        System.out.println(myDouble);
+        System.out.println(myString);
+        System.out.println();
+
+        System.out.println("Static variables: ");
+        System.out.println(VariablesInJava.myString);
+        System.out.println(VariablesInJava.myDouble);
+
+        System.out.println("Non-static variables: ");
+        VariablesInJava variablesInJava = new VariablesInJava();
+        System.out.println(variablesInJava.myBoolean);
+        System.out.println(variablesInJava.myByte);
+        System.out.println(variablesInJava.myInt);
     }
 }
