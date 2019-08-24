@@ -10,6 +10,7 @@
 
 | S. No.    | Challenge Name      |   Challenge Date    | Solution post Date                 |   Status   |
 | ---:      |        :---:        |        :---:        |        :---:                       |    :---:   |
-|   #001    |  VariablesInJava    |   August 14, 2019   |  August 17, 2019 __new__           | completed  |
+|   #001    |  VariablesInJava    |   August 14, 2019   |  August 17, 2019                   | Completed  |
+|   #002    |  StringConcatenation|   August 21, 2019   |  August 23, 2019 __new__           | Completed  |
 |           |                     |                     |                                    |            |
 |           |                     |                     |                                    |            |
