@@ -12,6 +12,6 @@
 | ---:      |        :---:        |        :---:        |        :---:                       |    :---:   |
 |   #001    |  VariablesInJava    |   August 14, 2019   |  August 17, 2019                   | Completed  |
 |   #002    |  StringConcatenation|   August 21, 2019   |  August 23, 2019                   | Completed  |
-|   #003    |  OperatorsInJava    |  September 6, 2019  |  September 9, 2019 __new__         |  Running   |
-|   #004    |  IfElseStatement    |  September 6, 2019  |  September 9, 2019 __new__         |  Running   |
+|   #003    |  OperatorsInJava    |  September 6, 2019  |  September 9, 2019 __new__         | Completed  |
+|   #004    |  IfElseStatement    |  September 6, 2019  |  September 9, 2019 __new__         | Completed  |
 |           |                     |                     |                                    |            |
