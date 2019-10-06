@@ -14,5 +14,5 @@
 |   #002    |  StringConcatenation|   August 21, 2019   |  August 23, 2019                   | Completed  |
 |   #003    |  OperatorsInJava    |  September 6, 2019  |  September 9, 2019                 | Completed  |
 |   #004    |  IfElseStatement    |  September 6, 2019  |  September 9, 2019                 | Completed  |
-|   #005    |  SwitchStatement    |  October 1, 2019    |  October 3, 2019  __new__          | Running    |
+|   #005    |  SwitchStatement    |  October 1, 2019    |  October 6, 2019  __new__          | Running    |
 |           |                     |                     |                                    |            |
