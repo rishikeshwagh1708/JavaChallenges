@@ -39,6 +39,6 @@ public class IfElseStatement {
 
     /**
      * Write your output here...
-     *
+     * x=110, y=11, z=11
      * */
 }
